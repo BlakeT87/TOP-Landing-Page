@@ -1,5 +1,5 @@
 *{
-    border: solid 1px red;
+    /*border: solid 1px red;*/
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,9 @@ body{
 
 /*--------------Start Hero Section----------------*/
 .hero{
-    background-color: #1f2937
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -24,16 +26,38 @@ h2{
     color: #f9faf8;
 }
 
+.hero-main{
+    display: flex;
+    justify-content:space-around;
+    padding: 60px;
+    gap: 20px;
+}
 .hero-main p{
     font-size: 18px;
     color: #e5e7eb;
 }
 
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
 .nav li{
     font-size: 18px;
     color: #e5e7eb;
+    list-style-type: none;
 }
 .hero-main-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
 
 }
 
@@ -41,12 +65,22 @@ button{
     color: #f9faf8;
     background-color:#3882f6;
     padding: 5px 20px;
-    border-radius: 5px;    
+    border-radius: 5px;  
+    align-self: flex-start;  
 }
 
 .hero-main-right{
-    min-width=30vw;
-    min-height=10vh;
-    background-color: #e5e7eb
+    display: flex;
+    background-color: dimgray;
+    flex:1;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
 }
+
+img{
+    text-align: center;
+}
+
+
 /*----------------End Hero Section----------------*/
