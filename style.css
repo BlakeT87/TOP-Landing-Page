@@ -61,21 +61,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items:flex-start;
     flex: 2;
     gap: 10px;
 
 }
 
-.bluebutton{
-    color: #f9faf8;
-    background-color:#3882f6;
-    padding: 5px 20px;
-    border-radius: 5px;  
-    align-self: flex-start;
-    border:none;  
-    display: block;
-    width: 60px;
-}
 
 
 .hero-main-right{
@@ -182,8 +173,11 @@ img{
 
 .bot-button{
     border: solid 2px white;
+    background-color:#3882f6;
+    color:#f9faf8;
     border-radius: 5px;
     padding: 10px 30px;
+    width: fit-content;
 }
 /*---------End of CTA Section-------*/
 /*---------Start of Footer----------*/
