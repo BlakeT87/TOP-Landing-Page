@@ -61,7 +61,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1;
+    flex: 2;
     gap: 10px;
 
 }
@@ -71,7 +71,8 @@ button{
     background-color:#3882f6;
     padding: 5px 20px;
     border-radius: 5px;  
-    align-self: flex-start;  
+    align-self: flex-start;
+    border:none;  
 }
 
 .hero-main-right{
@@ -158,3 +159,42 @@ img{
     align-self: flex-end;
 }
 /*-------End of Quote Section------*/
+
+/*-------Start of CTA Section-------*/
+.cta{
+    background-color:#3882f6;
+    color:#f9faf8;
+    width: 80vw;
+    height: 20vh;
+    margin: 10vh;
+    display: flex;
+    border-radius:5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta .declaration{
+    font-size: 1.2em;
+}
+
+.bot-button{
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+/*---------End of CTA Section-------*/
+/*---------Start of Footer----------*/
+footer{
+    background-color:#1f2937;
+    color: #f9faf8;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/*------------End of Footer---------*/
